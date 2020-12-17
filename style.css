@@ -8,14 +8,21 @@ body{
 
 }
 
+.container{
+    height: 100%;
+    width: 100%;
+ 
+    position: absolute;
+}
+
 .bg-img{
     background-image: url("/images/minion.jpg");
 
 
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height:max-content;
+    background-position: center;
+    /* background-repeat:no-repeat; */
+    background-size: cover;
 }
 
 .head{
@@ -31,6 +38,7 @@ body{
     text-align: center;
     
     
+    
 }
 
 ::placeholder{
@@ -42,7 +50,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Langar', cursive;
-    width: 50%;
+    /* min-width: 50%; */
+    width: 75%;
+
     display: block;
     /* margin: 1rem; */
     padding:  1rem;
@@ -76,9 +86,10 @@ button{
 }
 
 .output{
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 75%;
     display: block;
     /* margin: 1rem; */
     padding: 1rem;
@@ -96,9 +107,8 @@ button{
 .footer{
     background:rgb(0, 0, 0);
     color: rgba(255, 230, 0, 0.877);
-    position: sticky;
-    left: 0;
-    bottom: 0;
+    
+    height: auto;
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
