@@ -28,27 +28,30 @@ body{
 
 .txtout{
     padding:1rem;
+    text-align: center;
     
     
 }
 
 ::placeholder{
-    color:yellow;
+    color:rgb(99, 99, 99);
     opacity: 0.6;
 }
 .txt-input{
-    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Langar', cursive;
-    width: 80%;
+    width: 50%;
     display: block;
     /* margin: 1rem; */
     padding:  1rem;
     min-height: 20vh;
     resize: vertical;
-    background: transparent;
-    color: rgb(255, 255, 255);
+    color: rgb(196, 0, 137);
+    background-color: rgba(224, 202, 1, 0.781);
 
-    font-size: 1rem;
+    font-size: 1.5rem;
     
     border-color: rgb(1, 133, 133);
     border-style: ridge;
@@ -72,18 +75,21 @@ background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png
 }
 
 .output{
-    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     display: block;
     /* margin: 1rem; */
     padding: 1rem;
     min-height: 20vh;
     resize: vertical;
     background: transparent;
-    color: rgb(255, 217, 0);
-   
+    color: rgb(196, 0, 137);
+    background-color: rgba(224, 202, 1, 0.781);
     border-color: rgb(1, 133, 133);
     border-style: ridge;
     border-width: 2px;
+    font-size: 1.5rem;
 }
 
 .footer{
