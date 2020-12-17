@@ -32,7 +32,12 @@ body{
     
 }
 
+::placeholder{
+    color:yellow;
+    opacity: 0.6;
+}
 .txt-input{
+    
     font-family: 'Langar', cursive;
     width: 80%;
     display: block;
