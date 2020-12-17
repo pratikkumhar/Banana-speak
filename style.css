@@ -70,8 +70,9 @@ button{
     font-size: 2rem;
     opacity: 0.87;
     background-color: #004eeb;
-background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
     margin: 1rem;
+    cursor: pointer;
 }
 
 .output{
@@ -96,13 +97,15 @@ background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png
     background:rgb(0, 0, 0);
     color: rgba(255, 230, 0, 0.877);
     position: sticky;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
 
     
 }
 
 .footer .footer-head{
-    padding: 1.5rem;
+    padding: 2rem;
 }
